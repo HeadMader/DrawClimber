@@ -400,7 +400,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -550,7 +550,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -651,7 +651,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Win: {fileID: 4541635926822190486}
   GameOver: {fileID: 968271773}
-  deadLine: -38.58
+  Pause: {fileID: 7927807911172986610}
+  deadLine: -6.99
   camTarget: {fileID: 2494252993949619174}
   stopWatch: {fileID: 396571390}
   fadeDuration: 1
@@ -949,7 +950,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7d6e9fb310e80547b3e7001584c6af2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fuvk: {fileID: 102137251}
+  Image: {fileID: 102137251}
+  player: {fileID: 0}
   meshCreatorRightLeg: {fileID: 0}
   meshCreatorLeftLeg: {fileID: 0}
   meshCreatorRightLegInvisable: {fileID: 0}
